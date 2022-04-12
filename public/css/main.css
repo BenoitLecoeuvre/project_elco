@@ -36,7 +36,21 @@ nav img {
     height: 150px;
 }
 
-
+/* MAIN DE LA PAGE D'ACCUEIL*/
+img{
+    max-width: 100%;
+	height: auto;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* FOOTER */
 
 footer {

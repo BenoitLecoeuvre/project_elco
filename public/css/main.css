@@ -54,3 +54,13 @@ footer .coord_footer {
 footer .nav_footer {
     padding-right: 10px;
 }
+
+/* FORMULAIRE */
+
+form {
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-top: 5px;
+}

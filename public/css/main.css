@@ -1,0 +1,56 @@
+/* Barre de connexion/réseaux sociaux */
+
+header .nav1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black solid;
+}
+
+header .nav1 .social_icons img {
+    margin-top: 5px;
+    height: 20px;
+    width: auto;
+}
+
+header .nav1 button {
+    margin-right: 5px;
+}
+
+
+/* Barre de navigation */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px black solid;
+}
+
+nav ul {
+    list-style: none;
+}
+nav img {
+    height: 150px;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black
+}
+
+footer .coord_footer {
+    padding-left: 10px;
+}
+
+footer .nav_footer {
+    padding-right: 10px;
+}

@@ -1,6 +1,5 @@
 @extends('layouts.base')
 
 @section('content')
-    <h1>Page d'accueil 🏠</h1>
-    
+    <p>Ici se trouve le contenu de la page d'accueil 🏠</p>   
 @endsection

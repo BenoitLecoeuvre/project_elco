@@ -16,7 +16,7 @@
                 <img src="{{url('img/linkedin.png')}}">
             </div>
             <div>
-                <button><a href="/connexion">Connexion</button>
+                <button><a href="/connexion">Connexion</a></button>
             </div>
         </div>
 

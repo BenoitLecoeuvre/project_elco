@@ -15,12 +15,12 @@
             <input type="text">
         </div>
         <div>
-            <label for="">Société:</label>
+            <label for="firm">Société:</label>
             <input type="text">
         </div>
         <div>
             <label for="mail">E-Mail:</label>
-            <input type="mail">
+            <input type="email" id="mail">
         </div>
         <div>
             <label label="phone">Téléphone:</label>

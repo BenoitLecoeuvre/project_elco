@@ -16,20 +16,20 @@
                 <img src="{{url('img/linkedin.png')}}">
             </div>
             <div>
-                <button>Connexion</button>
+                <button><a href="/connexion">Connexion</button>
             </div>
         </div>
 
         <nav>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Nos services</a></li>
-                <li><a href="#">Qui sommes-nous ?</a></li>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/services">Nos services</a></li>
+                <li><a href="/presentations">Qui sommes-nous ?</a></li>
             </ul>
             <img src="{{url('img/logo_elco_small.png')}}">
             <ul>
-                <li><a href="#">Nous contacter</a></li>
-                <li><a href="#">Espace client</a></li>
+                <li><a href="/contact">Nous contacter</a></li>
+                <li><a href="/client">Espace client</a></li>
             </ul>
         </nav>
     </header>
@@ -45,10 +45,10 @@
     </div>
     <div class="nav_footer">
         <ul>
-            <li><a href="#">Accueil</a></li>
+            <li><a href="/">Accueil</a></li>
             <li><a href="#">Plan du site</a></li>
             <li><a href="#">Mentions légales</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </div>
 </footer>   

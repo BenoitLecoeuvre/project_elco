@@ -44,3 +44,11 @@ Route::get('/client', function () {
 Route::get('/connexion', function () {
     return view('connexion');
 });
+
+Route::get('/plan', function () {
+    return view('plan');
+});
+
+Route::get('/droit', function () {
+    return view('droit');
+});

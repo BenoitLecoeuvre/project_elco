@@ -46,8 +46,8 @@
     <div class="nav_footer">
         <ul>
             <li><a href="/">Accueil</a></li>
-            <li><a href="#">Plan du site</a></li>
-            <li><a href="#">Mentions légales</a></li>
+            <li><a href="/plan">Plan du site</a></li>
+            <li><a href="/droit">Mentions légales</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>
     </div>

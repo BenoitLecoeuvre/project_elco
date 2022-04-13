@@ -2,7 +2,6 @@
 
 @section('content')
 
-    <p>Ici se trouve le contenu de la page d'accueil 🏠</p>  
     <img src="{{url('img/elco-2.png')}}">
 
     <div id="container">

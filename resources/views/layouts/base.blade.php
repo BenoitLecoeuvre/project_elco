@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="{{url('css/main.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
+    <header>
         <div class="nav1">
             <div class="social_icons">
-                <img src="{{url('img/logo-facebook.png')}}">
-                <img src="{{url('img/linkedin.png')}}">
+                <img src="img/logo-facebook.png">
+                <img src="img/linkedin.png">
             </div>
             <div>
                 <button><a href="/connexion">Connexion</a></button>
@@ -21,16 +24,22 @@
         </div>
 
         <nav>
-            <ul>
-                <li><a href="/">Accueil</a></li>
-                <li><a href="/services">Nos services</a></li>
-                <li><a href="/presentations">Qui sommes-nous ?</a></li>
-            </ul>
-            <img src="{{url('img/logo_elco_small.png')}}">
-            <ul>
-                <li><a href="/contact">Nous contacter</a></li>
-                <li><a href="/client">Espace client</a></li>
-            </ul>
+            <div>
+                <ul id="nav_left">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/services">Nos services</a></li>
+                    <li><a href="/presentations">Qui sommes-nous ?</a></li>
+                </ul>
+            </div>
+            <div id="nav_img">
+                <img src="{{url('img/logo_elco_small.png')}}">
+            </div>
+            <div>
+                <ul id="nav_right">
+                    <li><a href="/contact">Nous contacter</a></li>
+                    <li><a href="/client">Espace client</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 

@@ -18,7 +18,7 @@
        </div>
 
         <div class="block">
-          <h3>nous Contacter</h3>
+          <h3>Nous Contacter</h3>
           <img src="{{url('img/nous_contacter.png')}}">
           <p></p>
        </div>

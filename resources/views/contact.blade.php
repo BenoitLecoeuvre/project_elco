@@ -3,6 +3,22 @@
 @section('content')
 
   <div>
+
+    <main>
+        <section class="titre">
+            <div class="phantom">
+            </div>
+            <div class="titre_text">
+                <h1>
+                    CONTACT
+                </h1>
+            </div>
+            <div class="violetlogo">
+                <img src="./img/titre.jpg">
+            </div>
+        </section>
+    </main>
+    
     <h1>Des questions ? Contactez-nous ! 📞</h1>
     
     <form action="" method="">

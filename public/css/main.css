@@ -167,6 +167,51 @@ footer ul li a {
     color: inherit;
 }
 
+/* SECTION TITRE */
+
+section.titre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+    height: 260px;
+    width: 100vw;
+    border-bottom: #566A74 solid 3px;
+
+}
+
+section.titre img {
+width: 260px;
+height: 260px;
+display: block;
+position: relative;
+right: 52vw;
+z-index: 1;
+
+
+}
+
+section.titre .titre_text {
+    width: 500px;
+position: relative;
+z-index: 2;
+}
+
+section.titre h1 {
+    width: 500px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Oswald';
+    font-size: 90px;
+    color: #0e2a39;
+}
+
+section.titre .phantom {
+    height: 300px;
+    width: 300px;
+
+}
+
 /* FORMULAIRE */
 
 form {

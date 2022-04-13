@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/* CREATION DE ROUTE POUR AVOIR DIFFERENTES PAGES*/
 Route::get('/', function () {
     return view('accueil');
 });

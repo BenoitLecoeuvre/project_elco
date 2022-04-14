@@ -268,3 +268,105 @@ form div {
     width: 80%;
     right: 50%;
 }
+
+/* CONTACT */
+
+#contact_form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e2a39
+}
+
+#contact_form h1 {
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+#contact_form div {
+    display: flex;
+    justify-content: center;
+}
+
+#contact_form .shadow div {
+    width: 12vw;
+    height: 20px;
+    border-top: #ba7ed5 solid;
+    margin-bottom: 20px;
+}
+
+#contact_form form .formflex {
+    display: flex;
+    justify-content: center;
+}
+
+#contact_form form .formflex div {
+    display: flex;
+    flex-direction: column;
+    width: 14vw;
+}
+
+#contact_form form .formflex div textarea {
+    width: 100%;
+}
+
+#contact_form form .formflex_mail {
+    display: flex;
+    justify-content: center;
+}
+
+#contact_form form .formflex_mail div {
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+}
+
+#contact_form form .formflex_message {
+    display: flex;
+    justify-content: center;
+}
+
+#contact_form form .formflex_message div {
+    display: flex;
+    flex-direction: column;
+    width: 42vw;
+}
+
+#contact_form form .formflex div input {
+    margin: 0 20px 20px 0;
+}
+
+#contact_form form .formflex_mail div input {
+    margin: 0 20px 20px 0;
+}
+
+#contact_form form .formflex_message div textarea {
+    margin: 0 20px 20px 0;
+}
+
+#contact_form form label {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#contact_form form button {
+    margin: 20px 20px 20px 0;
+    width: 42vw;
+    padding: 2px;
+    height: 50px;
+    color: white;
+    background-color: #ba7ed5;
+    border: 1px solid #ba7ed5;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+#contact_form form .form_submit {
+    display: flex;
+    justify-content: center;
+}
+
+#contact_form form .form_submit div {
+    display: flex;
+    width: 42vw;
+}
+
+

@@ -18,38 +18,47 @@
             </div>
         </section>
     </main>
-    
-    <h1>Des questions ? Contactez-nous ! 📞</h1>
-    
-    <form action="" method="">
-        <div>
-            <label for="name">Nom:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="firstname">Prénom:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="firm">Société:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="mail">E-Mail:</label>
-            <input type="email" id="mail">
-        </div>
-        <div>
-            <label label="phone">Téléphone:</label>
-            <input id="phone" type="tel">
-        </div>
-        <div>
-            <label for="message">Message:</label>
-            <textarea id="message">Votre message</textarea>
-        </div>
-        <div>
-            <button type="submit">Envoyer</button>
-        </div>
-        </form>
-</div>
+    <section id="contact_form">
+        <h1>Des questions ? Contactez-nous ! </h1>
+        <div class="shadow"><div></div></div>
+        
+        <form action="" method="">
+            <div class="formflex">
+                <div>
+                    <label for="name">Nom</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="firstname">Prénom</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="firm">Société</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="formflex_mail">
+                <div>
+                    <label for="mail">E-Mail</label>
+                    <input type="email" id="mail" required>
+                </div>
+                <div>
+                    <label label="phone">Téléphone</label>
+                    <input id="phone" type="tel" required>
+                </div>
+            </div>
+            <div class="formflex_message">
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="10" required></textarea>
+                </div>
+            </div>
+            <div class="form_submit">
+                <div>
+                    <button type="submit">Envoyer</button>
+                </div>
+            </div>
+            </form>
+    </section>
     
 @endsection

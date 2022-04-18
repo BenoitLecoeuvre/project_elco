@@ -18,6 +18,7 @@
             </div>
         </section>
     </main>
+    
     <section id="contact_form">
         <h1>Des questions ? Contactez-nous ! </h1>
         <div class="shadow"><div></div></div>

@@ -36,7 +36,7 @@
             </div>
             <div>
                 <ul id="nav_right">
-                    <li><a href="/contact">Nous contacter</a></li>
+                    <li><a href="/contact">Nous <br>contacter</a></li>
                     <li><a href="/client">Espace client</a></li>
                 </ul>
             </div>
@@ -45,22 +45,22 @@
 
     @yield('content')
 
-<footer>
-    <div class="coord_footer">
-        <p>SARL ELCO <br>
-        Comptabilité et expertise</p>
-        <p>2 rue de la flamengrie, <br>
-        02510 Hannappes</p>
-    </div>
-    <div class="nav_footer">
-        <ul>
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/plan">Plan du site</a></li>
-            <li><a href="/droit">Mentions légales</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </div>
-</footer>   
+    <footer>
+        <div class="coord_footer">
+            <p>SARL ELCO <br>
+            Comptabilité et expertise</p>
+            <p>2 rue de la flamengrie, <br>
+            02510 Hannappes</p>
+        </div>
+        <div class="nav_footer">
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/plan">Plan du site</a></li>
+                <li><a href="/droit">Mentions légales</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </footer>   
 
 </body>
 </html>

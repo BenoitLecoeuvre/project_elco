@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,9 +35,13 @@ Route::get('/presentations', function () {
     return view('presentations');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+// Formulaire de contact
+
+Route::get('/contact', [ContactController::class, 'index']);
+Route::post('/contact', [ContactController::class, 'store']);
+
+
+// Suite des routes
 
 Route::get('/client', function () {
     return view('client');
@@ -52,4 +57,8 @@ Route::get('/plan', function () {
 
 Route::get('/droit', function () {
     return view('droit');
+});
+
+Route::get('/admin', function () {
+    return view('admin');
 });

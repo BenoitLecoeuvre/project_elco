@@ -43,7 +43,10 @@
         </nav>
     </header>
 
-    @yield('content')
+
+    <div> 
+        @yield('content')
+    </div>
 
     <footer>
         <div class="coord_footer">

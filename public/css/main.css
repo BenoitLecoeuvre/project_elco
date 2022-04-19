@@ -264,6 +264,18 @@ form div {
 
 }
 
+
+/* SERVICES */
+.titre_services_parent{
+   display: flex;
+}
+.titre_services_parent_{
+    display: flex;
+}
+.titre_services h3{
+    color: #ba7ed5;
+    
+}
 /* CONTACT */
 
 #contact_form {

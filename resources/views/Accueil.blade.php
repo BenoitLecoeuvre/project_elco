@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <img src="{{url('img/elco-2.png')}}">
+    <img src="{{url('img/elco-3.png')}}">
 
     <div id="container">
         <div class="block">

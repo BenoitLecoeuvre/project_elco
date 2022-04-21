@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
 
     DB::table('contacts')->insert([
         'name' => Str::random(5),
-        'first-name' => Str::random(7),
+        'first_name' => Str::random(7),
         'firm' => Str::random(3),
         'mail' => Str::random(6).'@gmail.com',
         'phone' => '0'.rand(6, 7).'.'.rand(010, 99).'.'.rand(10, 99).'.'.rand(10, 99).'.'.rand(10, 99),

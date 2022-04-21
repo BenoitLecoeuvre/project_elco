@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ContactAdmin;
 
 /*
 |--------------------------------------------------------------------------
@@ -59,6 +60,6 @@ Route::get('/droit', function () {
     return view('droit');
 });
 
-Route::get('/admin', function () {
-    return view('admin');
-});
+// Administration
+
+Route::get('/admin', [ContactAdmin::class, 'index']);

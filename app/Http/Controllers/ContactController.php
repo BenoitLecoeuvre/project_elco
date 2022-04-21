@@ -25,7 +25,7 @@ class ContactController extends Controller
         // S'il n'y a pas d'erreurs, on crée la catégorie
         $category = Contact::create([
             'name' => request('name'),
-            'first-name' => request('first-name'),
+            'first_name' => request('first_name'),
             'firm' => request('firm'),
             'mail' => request('mail'),
             'phone' => request('phone'),
@@ -34,4 +34,6 @@ class ContactController extends Controller
 
         return redirect('/contact')->with('status', 'Votre formulaire a bien été envoyé. Vous serez recontacté par mail très prochainement.');
     }
+
+    
 }

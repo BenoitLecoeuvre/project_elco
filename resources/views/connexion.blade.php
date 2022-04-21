@@ -19,7 +19,9 @@
 
   <div class="connexion">
     <h1>Déjà un compte ? Connectez-vous 🥳 :</h1>
-    <form method="" action="">
+    <form method="post" action="/connexion">
+        @csrf
+        
         <div>
             <label for="email">E-mail:</label>
             <input type="email" id="email">

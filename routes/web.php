@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ConnexionController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ContactAdmin;
@@ -63,3 +64,12 @@ Route::get('/droit', function () {
 // Administration
 
 Route::get('/admin', [ContactAdmin::class, 'index']);
+
+// Formulaire de connexion 
+   /* route permettant de prendre les infirmations présents dans le formulaire 
+    et de les taités */
+ Route::get('/connexion ', [ConnexionController::class, 'formulaire']);
+ Route::post('/connexion', [ConnexionController::class, 'traitement']);
+
+   /* route permettant de rediriger l'utilisateur */
+ Route::view('/mon-compte', 'mon compte');

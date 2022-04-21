@@ -23,22 +23,23 @@
 <section id="section_admin">
     <h2>Ajouter un nouveau client</h2>
     <form method="post" action="">
+        @csrf
         <div>
             <label for="mail">E-Mail</label>
-            <input type="email" id="mail" name="mail" required>
+            <input type="email" id="mail" name="email" required>
         </div>
         <div>
             <label for="id">Identifiant</label>
-            <input type="text" id="id" name="id" required>
+            <input type="text" id="id" name="name" required>
         </div>
         <div>
             <label for="password">Mot de passe</label>
             <input type="text" id="password" name="password" required>
         </div>
+        <div>
+            <button type="submit">Valider</button>
+        </div>
     </form>
-    <div>
-        <button type="submit">Valider</button>
-    </div>
 
     <div class="shadow"><div></div></div>
 </section>

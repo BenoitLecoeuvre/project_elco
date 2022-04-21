@@ -25,7 +25,7 @@
 
         <nav>
             <div>
-                <ul id="nav_left">
+                <ul>
                     <li><a href="/">Accueil</a></li>
                     <li><a href="/services">Nos services</a></li>
                     <li><a href="/presentations">Qui sommes-nous ?</a></li>
@@ -35,7 +35,7 @@
                 <img src="{{url('img/logo_elco_small.png')}}">
             </div>
             <div>
-                <ul id="nav_right">
+                <ul>
                     <li><a href="/contact">Nous <br>contacter</a></li>
                     <li><a href="/client">Espace client</a></li>
                 </ul>

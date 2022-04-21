@@ -57,24 +57,17 @@ nav {
 }
 
 nav div {
-    width: 33%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
 }
 
-nav #nav_left {
+nav div ul {
     width: 600px;
     height: 80px;
     display : flex;
     justify-content: space-around;
     align-items: center;
-}
-
-nav #nav_right {
-    width: 600px;
-    height: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
 }
 
 nav ul {
@@ -108,7 +101,7 @@ nav #nav_img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 33%;
+    width: 10%;
     height: 150px;
 
 }
@@ -292,7 +285,7 @@ section.titre .phantom {
 }
 
 #section_admin button {
-    margin: 0 20px 20px 0;
+    margin: 20px 20px 20px 0;
     width: 22vw;
     padding: 2px;
     height: 50px;

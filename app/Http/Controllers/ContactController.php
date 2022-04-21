@@ -20,8 +20,6 @@ class ContactController extends Controller
             // 'email' => 'required|email',
         ]);
 
-        // dump(request('name'));
-
         // S'il n'y a pas d'erreurs, on crée la catégorie
         $category = Contact::create([
             'name' => request('name'),

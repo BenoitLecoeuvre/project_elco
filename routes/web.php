@@ -65,8 +65,10 @@ Route::get('/admin', function () {
 });
 
 // Formulaire de connexion 
+   /* route permettant de prendre les infirmations présents dans le formulaire 
+    et de les taités */
+ Route::get('/connexion ', [ConnexionController::class, 'formulaire']);
+ Route::post('/connexion', [ConnexionController::class, 'traitement']);
 
- Route::get('/connexion , ConnexionController@formulaire');
- Route::post('/connexion, ConnexionController@traitement');
-
+   /* route permettant de rediriger l'utilisateur */
  Route::view('/mon-compte', 'mon compte');

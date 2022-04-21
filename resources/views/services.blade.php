@@ -18,13 +18,16 @@
 
   <section>
       
-          <div class="titre_services" >
+          <div class="titre_services0" >
               <h2>
                  Concrètement nous réalisons
               </h2>
 
+              <img src="./img/image_compta.png" alt="" width="300px">
           </div>
-       <div class="titre_services_parent">
+
+
+       <div class="Block_service1">
            <div class="titre_services" >
                <h3>
                  La tenue de comptabilité
@@ -59,7 +62,15 @@
           </div>
       </div>
 
-      <div class="titre_service_parent_">
+
+
+
+
+
+
+
+
+      <div class="Block_service2">
           <div class="titre_services" >
                <h3>
                  La présentation détaillée du bilan et

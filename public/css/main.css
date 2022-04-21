@@ -267,16 +267,36 @@ section.titre .phantom {
 }
 
 /* SERVICES */
-.titre_services_parent{
+
+.titre_services0{
+    text-align: center;
+    
+}
+.titre_services0 h2{
+    font-size: 50px;
+}
+
+
+.titre_services h3 {
+    color: #ba7ed5;
+    font-size: 30px;
+}
+.Block_service1{
     display: flex;
- }
- .titre_services_parent_{
-     display: flex;
- }
- .titre_services h3{
-     color: #ba7ed5;
- 
- }
+    align-items: center;
+    justify-content: center;
+    padding-left:  50px;
+    padding-right: 50px;
+    height: 20vh;
+
+}
+.Block_service2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
 
 /* CONTACT */
 

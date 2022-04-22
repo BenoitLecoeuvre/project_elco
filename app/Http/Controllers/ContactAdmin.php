@@ -33,4 +33,11 @@ class ContactAdmin extends Controller
         return redirect('/admin')->with('status', 'Nouveau client ajouté');
     }
 
+    public function destroy(Contact $contact)
+    {
+        $contact->delete();
+
+        return redirect('/admin')->with('status', 'La catégorie '.$contact->id.' a été supprimée.');
+    }
+
 }

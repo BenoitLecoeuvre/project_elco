@@ -40,16 +40,17 @@
 
     <div class="shadow"><div></div></div>
 
-    <form action="" method="">
+    <form action="" method="post">
+        @csrf
         <h3>Connexion</h3>
         <div class="form_ec">
             <div>
                 <label for="id">Identifiant</label>
-                <input type="text" id="id" required>
+                <input type="text" id="id" name="email" required>
             </div>
             <div>
                 <label for="pw">Mot de passe</label>
-                <input type="password" id="pw" required>
+                <input type="password" id="pw" name="password" required>
             </div>
         </div>
         <div class="form_submit">

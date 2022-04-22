@@ -44,9 +44,9 @@
     </header>
 
 
-    <div> 
+    <body> 
         @yield('content')
-    </div>
+    </body>
 
     <footer>
         <div class="coord_footer">

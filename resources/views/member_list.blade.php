@@ -3,7 +3,7 @@
 @section('content')
 <section id="contact_admin">
     <div>
-        <h2 style="margin-bottom: 30px; text-align: center">Liste des clients</h2>
+        <h2 style="text-align: center">Liste des clients</h2>
         <p style="text-align:center">
             <a href="/admin">Retour au panel d'administation</a>
         </p>

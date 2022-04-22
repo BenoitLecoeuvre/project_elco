@@ -9,7 +9,11 @@ class ContactController extends Controller
 {
     public function index()
     {
-        return view('contact');
+        return view('contact', [
+            'style' => 'css/contact.css',
+            'title' => 1,
+            'title_text' => 'CONTACT'
+        ]);
     }
 
     public function store(Request $request)

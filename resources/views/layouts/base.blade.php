@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>ELCO Comptabilité</title>
     <link rel="stylesheet" href="{{url('css/main.css')}}">
+    <link rel="stylesheet" href="{{url($style)}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
@@ -18,8 +19,29 @@
                 <img src="img/logo-facebook.png">
                 <img src="img/linkedin.png">
             </div>
-            <div>
-                <button><a href="/connexion">Connexion</a></button>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Connexion</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <form action="" method="post">
+                        @csrf
+                        <h3>Connexion</h3>
+                        <div class="form_ec">
+                            <div>
+                                <label for="id">Identifiant</label>
+                                <input type="text" id="id" name="email" required>
+                            </div>
+                            <div>
+                                <label for="pw">Mot de passe</label>
+                                <input type="password" id="pw" name="password" required>
+                            </div>
+                        </div>
+                        <div class="form_submit">
+                            <div>
+                                <button type="submit">Connexion</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -44,9 +66,24 @@
     </header>
 
 
-    <body> 
+    <main> 
+        @if($title)
+        <section class="titre">
+            <div class="phantom">
+            </div>
+            <div class="titre_text">
+                <h1>
+                    {{$title_text}}
+                </h1>
+            </div>
+            <div class="violetlogo">
+                <img src="./img/titre.jpg">
+            </div>
+        </section>
+        @endif
+
         @yield('content')
-    </body>
+    </main>
 
     <footer>
         <div class="coord_footer">
@@ -63,7 +100,29 @@
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </div>
-    </footer>   
+    </footer>
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
 
 </body>
 </html>

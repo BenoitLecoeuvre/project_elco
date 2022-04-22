@@ -12,6 +12,7 @@ class ContactAdmin extends Controller
     {
         return view('admin', [
             'contacts' => Contact::all(),
+            'style' => 'css/admin.css'
         ]);
     }
 

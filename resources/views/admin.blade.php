@@ -1,5 +1,6 @@
 @extends('layouts.admin_header')
 
+
 @section ('content')
 <section id="section_admin">
     <h2>Ajouter un nouveau client</h2>

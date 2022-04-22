@@ -1,0 +1,30 @@
+/* MAIN DE LA PAGE D'ACCUEIL*/
+
+.main .img_main {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .main .img_main img{
+        width: 100%;
+        height: auto;
+    }
+    
+    #container{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #container img {
+        border : 3px solid black;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    
+    .block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }

@@ -20,23 +20,26 @@ use App\Http\Controllers\UserList;
 
 /* CREATION DE ROUTE POUR AVOIR DIFFERENTES PAGES*/
 Route::get('/', function () {
-    return view('accueil');
+    return view('accueil', [
+        'style' => 'css/accueil.css',
+        'title' => 0
+    ]);
 });
 
 Route::get('/services', function () {
-    return view('services');
-});
-
-Route::get('/services', function () {
-    return view('services');
-});
-
-Route::get('/presentations', function () {
-    return view('presentations');
+    return view('services', [
+        'style' => 'css/services.css',
+        'title' => 1,
+        'title_text' => 'NOS SERVICES'
+    ]);
 });
 
 Route::get('/presentations', function () {
-    return view('presentations');
+    return view('presentations', [
+        'style' => 'css/presentations.css',
+        'title' => 1,
+        'title_text' => 'QUI SOMMES NOUS ?'
+    ]);
 });
 
 // Formulaire de contact
@@ -44,21 +47,34 @@ Route::get('/presentations', function () {
 Route::get('/contact', [ContactController::class, 'index']);
 Route::post('/contact', [ContactController::class, 'store']);
 
-
 // Suite des routes
-
-
 
 Route::get('/connexion', function () {
     return view('connexion');
 });
 
 Route::get('/plan', function () {
-    return view('plan');
+    return view('plan', [
+        'style' => 'css/plan.css',
+        'title' => 1,
+        'title_text' => 'PLAN DU SITE'
+    ]);
 });
 
 Route::get('/droit', function () {
-    return view('droit');
+    return view('droit', [
+        'style' => 'css/droit.css',
+        'title' => 1,
+        'title_text' => 'MENTIONS LEGALES'
+    ]);
+});
+
+Route::get('/client', function () {
+    return view('client', [
+        'style' => 'css/client.css',
+        'title' => 1,
+        'title_text' => 'NOS SERVICES'
+    ]);
 });
 
 // Liste des membres
@@ -73,8 +89,8 @@ Route::delete('/admin/{contact}', [ContactAdmin::class, 'destroy']);
 // Formulaire de connexion 
    /* route permettant de prendre les informations présentes dans le formulaire 
     et de les traiter */
- Route::get('/client', [ConnexionController::class, 'index']);
- Route::post('/client', [ConnexionController::class, 'traitement']);
+ Route::get('/connexion', [ConnexionController::class, 'formulaire']);
+ Route::post('/connexion', [ConnexionController::class, 'traitement']);
 
    /* route permettant de rediriger l'utilisateur */
  Route::view('/mon-compte', 'mon-compte');

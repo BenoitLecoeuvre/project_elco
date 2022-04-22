@@ -1,0 +1,22 @@
+/* MENTION LEGALES */
+
+.droit{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 75, 75);
+    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 75vw;
+}
+
+.droit p{
+    display: inline-block;
+}
+
+#legal{
+    display: flex;
+    justify-content: center;
+    width: 100vw; 
+}

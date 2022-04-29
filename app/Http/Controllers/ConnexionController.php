@@ -3,36 +3,41 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
 class ConnexionController extends Controller
 {
-    public function formulaire(){ // affiche le formulaire 
-          return view('connexion');
+    public function index(){ // affiche la page de l'espace client
+        return view('client', [
+            'style' => 'css/client.css',
+            'title' => 1,
+            'title_text' => 'ESPACE CLIENT'
+        ]);
     }
 
-
-    public function traitement (Request $request) // traitement du formulaire 
+    /**
+     * Handle an authentication attempt.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function authenticate(Request $request)
     {
-        request() -> validate([
+        $credentials = $request->validate([
             'email' => ['required', 'email'],
             'password' => ['required'],
         ]);
-       // authentification des utilisateurs 
-        $resultat = auth() -> attempt([
-            'email' => request('email'),
-            'password' => request('password'),
-        ]);
-
-        if($resultat){
-            return redirect('/mon-compte');
+ 
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+ 
+            return redirect()->intended('/admin');
         }
-        // renvoyer à la page précédente , l'email et permet d'afficher les erreurs.
-        return back()->withInput()->withErrors([
-            'email'=> 'vos identifiants sont incorrects.'
-        ]);
-        
-
-        return 'traitement formulaire connexion';
+ 
+        return redirect()->intended('/client')->with('delete_status', 'Le mot de passe '.$credentials->password.' est incorrect');;
+        /*return back()->withErrors([
+            'email' => 'The provided credentials do not match our records.',
+        ])->onlyInput('email');*/
     }
-
 }

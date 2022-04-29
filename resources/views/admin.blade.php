@@ -3,6 +3,17 @@
 
 @section ('content')
 <section id="section_admin">
+    @if (session('status'))
+    <div class="success_state">
+        {{ session('status') }}
+    </div>
+    @endif
+    @if (session('delete_status'))
+    <div class="delete_state">
+        {{ session('delete_status') }}
+    </div>
+    @endif
+
     <h2>Ajouter un nouveau client</h2>
     <form method="post" action="">
         @csrf

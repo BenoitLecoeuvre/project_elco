@@ -2,6 +2,13 @@
 
 @section('content')
 <section class="ec">
+
+    @if (session('delete_status'))
+    <div class="delete_state">
+        {{ session('delete_status') }}
+    </div>
+    @endif
+    
     <div class="intro_ec">
         <h2>
             Vous êtes clients chez nous ?<br>
@@ -29,8 +36,8 @@
         <h3>Connexion</h3>
         <div class="form_ec">
             <div>
-                <label for="id">Identifiant</label>
-                <input type="text" id="id" name="email" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
             </div>
             <div>
                 <label for="pw">Mot de passe</label>

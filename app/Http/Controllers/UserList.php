@@ -11,6 +11,7 @@ class UserList extends Controller
     {
         return view('member_list', [
             'users' => User::all(),
+            'style' => 'css/admin.css'
         ]);
     }
 
@@ -18,7 +19,7 @@ class UserList extends Controller
     {
         $user->delete();
 
-        return redirect('/admin/member_list')->with('status', 'Le client '.$user->name.' a été supprimé.');
+        return redirect('/admin/member_list')->with('delete_status', 'Le client "'.$user->name.'" a été supprimé.');
     }
 
 

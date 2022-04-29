@@ -55,6 +55,36 @@
     color: #0e2a39;
 }
 
+#section_admin .success_state{
+    margin-top: 8px;
+    background-color: #5CB85C;
+    border: 3px solid #9DCCB6;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 50%
+}
+
+#section_admin .delete_state {
+    margin-top: 8px;
+    background-color: #C82333;
+    border: 3px solid #ED99A1;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 50%
+}
+
+#contact_admin .delete_state {
+    margin-top: 8px;
+    background-color: #C82333;
+    border: 3px solid #ED99A1;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 100%
+}
+
 #section_admin form {
     width: 270px;
     height: auto;

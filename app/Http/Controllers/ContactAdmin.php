@@ -31,14 +31,14 @@ class ContactAdmin extends Controller
             'password' => request('password')
         ]);
 
-        return redirect('/admin')->with('status', 'Nouveau client ajouté');
+        return redirect('/admin')->with('status', 'Un nouveau client a bien été ajouté.');
     }
 
     public function destroy(Contact $contact)
     {
         $contact->delete();
 
-        return redirect('/admin')->with('status', 'La catégorie '.$contact->id.' a été supprimée.');
+        return redirect('/admin')->with('delete_status', 'Le ticket n°'.$contact->id.' a bien été supprimée.');
     }
 
 }

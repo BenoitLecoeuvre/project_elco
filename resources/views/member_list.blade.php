@@ -4,6 +4,13 @@
 <section id="contact_admin">
     <div>
         <h2 style="text-align: center">Liste des clients</h2>
+
+        @if (session('delete_status'))
+        <div class="delete_state">
+            {{ session('delete_status') }}
+        </div>
+        @endif
+        
         <p style="text-align:center">
             <a href="/admin">Retour au panel d'administation</a>
         </p>

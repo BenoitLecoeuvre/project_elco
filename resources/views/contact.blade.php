@@ -20,7 +20,7 @@
             </div>
             <div>
                 <label for="firstname">Prénom</label>
-                <input type="text" id="firstname" name="first-name" required>
+                <input type="text" id="firstname" name="first_name" required>
             </div>
             <div>
                 <label for="firm">Société</label>

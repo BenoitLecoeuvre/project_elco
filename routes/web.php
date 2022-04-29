@@ -69,14 +69,6 @@ Route::get('/droit', function () {
     ]);
 });
 
-Route::get('/client', function () {
-    return view('client', [
-        'style' => 'css/client.css',
-        'title' => 1,
-        'title_text' => 'NOS SERVICES'
-    ]);
-});
-
 // Liste des membres
 Route::get('/admin/member_list', [UserList::class, 'index']);
 Route::delete('/admin/member_list/{user}', [UserList::class, 'destroy']);
@@ -89,8 +81,8 @@ Route::delete('/admin/{contact}', [ContactAdmin::class, 'destroy']);
 // Formulaire de connexion 
    /* route permettant de prendre les informations présentes dans le formulaire 
     et de les traiter */
- Route::get('/connexion', [ConnexionController::class, 'formulaire']);
- Route::post('/connexion', [ConnexionController::class, 'traitement']);
+ Route::get('/client', [ConnexionController::class, 'index']);
+ Route::post('/client', [ConnexionController::class, 'authenticate']);
 
    /* route permettant de rediriger l'utilisateur */
  Route::view('/mon-compte', 'mon-compte');

@@ -9,6 +9,7 @@ body {
 /* Barre de connexion/réseaux sociaux */
 
 header .nav1 {
+    height: 31px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

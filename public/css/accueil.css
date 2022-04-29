@@ -7,8 +7,8 @@
     }
     
     .main .img_main img{
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: calc(100vh - 183px);
     }
     
     #container{

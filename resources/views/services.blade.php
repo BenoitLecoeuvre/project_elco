@@ -9,7 +9,7 @@
     <img src="./img/image_compta.png" alt="" width="300px">
   </div>
 
-  <div class="Block_service1">
+  <div class="Block_service">
     <div class="titre_services" >
       <h3>
         La tenue de comptabilité
@@ -42,7 +42,7 @@
     </div>
   </div>
 
-  <div class="Block_service2">
+  <div class="Block_service">
     <div class="titre_services" >
       <h3>
         La présentation détaillée du bilan et
@@ -53,7 +53,7 @@
       </p>
     </div>
 
-    <div class="titre_services" >
+    <div class="titre_services  titre_services_center" >
       <h3>
         La comptabilité analytique par projet
       </h3>

@@ -6,6 +6,13 @@ body {
     box-sizing: border-box;
 }
 
+.shadow div {
+    width: 12vw;
+    height: 20px;
+    border-top: #ba7ed5 solid;
+    margin-bottom: 20px;
+}
+
 /* Barre de connexion/réseaux sociaux */
 
 header .nav1 {

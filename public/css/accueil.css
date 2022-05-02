@@ -1,6 +1,11 @@
 /* MAIN DE LA PAGE D'ACCUEIL*/
 
-.main .img_main {
+    .main {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #0e2a39;
+    }
+
+    .main .img_main {
     background-color: #222222;
     display: flex;
     justify-content: center;
@@ -14,6 +19,7 @@
     #container{
         display: flex;
         justify-content: space-around;
+        margin-bottom: 100px;
     }
     
     #container img {
@@ -21,10 +27,19 @@
         border-radius: 50%;
         padding: 10px;
     }
+
+    .main .intro {
+        text-align: center;
+        margin-top: 40px;
+    }
     
     .block{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .main p {
+        font-style: italic;
     }

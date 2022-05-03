@@ -1,0 +1,28 @@
+.Plan_titre1{
+    text-align: center;
+}
+
+
+.Plan_div1{
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    padding-left:  50px;
+    padding-right: 50px;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+.Plan_div2{
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    padding-left:  50px;
+    padding-right: 50px;
+    height: auto;
+    margin-bottom: 70px;
+}

@@ -47,3 +47,9 @@ section .center_img {
 section article .resize {
     margin-left: 0;
 }
+
+@media screen and (max-width: 800px) {
+    section article .article_img {
+        display: none;
+    }
+}

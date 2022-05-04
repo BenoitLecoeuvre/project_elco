@@ -40,6 +40,7 @@
     width: 60%;
     position: relative;
     left: 20%;
+    z-index: 10;
 }
 
 .ec div {
@@ -77,6 +78,7 @@
 
 .ec .form_ec div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -96,7 +98,7 @@
 
 .ec form button {
     margin: 10px 0 20px 0;
-    width: 5vw;
+    width: 50%;
     padding: 2px;
     height: 50px;
     color: white;
@@ -114,4 +116,44 @@
 .ec form .form_submit div {
     display: flex;
     width: 42vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .content_ec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .intro_ec h2 {
+        font-size: 18px;
+    }
+
+    .intro_ec img {
+        height: 200px;
+    }
+
+    .ec .form_ec {
+        width: 200px;
+    }
+
+    .ec .form_ec div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: space-around;
+        text-align: left;
+    }
+
+    .ec .form_ec input {
+        width: 60px;
+
+    }
+    
 }

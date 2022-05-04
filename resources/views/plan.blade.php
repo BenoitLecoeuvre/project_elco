@@ -4,9 +4,9 @@
 <section>   
     <div class="plan_div" style="margin-top: 30px;">
         <ul>
-          <li><a href="">Accueil</a></li>
-          <li><a href="">Qui sommes-nous ?</a></li>
-          <li><a href="">Espace Client</a></li>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/presentations">Qui sommes-nous ?</a></li>
+          <li><a href="/client">Espace Client</a></li>
        </ul>   
     </div>
  
@@ -14,9 +14,9 @@
 
     <div class="plan_div">
         <ul>
-            <li><a href="">Nos services</a></li>
-            <li><a href="">Mentions légales</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="/services">Nos services</a></li>
+            <li><a href="/droit">Mentions légales</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </div>
 </section>

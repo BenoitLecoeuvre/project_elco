@@ -18,6 +18,7 @@
     
     #container{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         margin-bottom: 100px;
     }
@@ -42,6 +43,10 @@
 
     .block img {
         cursor: pointer;
+    }
+
+    .block p {
+        text-align: center;
     }
 
     #container img:hover {

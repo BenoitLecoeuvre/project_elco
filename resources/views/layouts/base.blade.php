@@ -46,9 +46,23 @@
         </div>
 
         <nav>
-            <div class="menu responsive">
-                <img src="{{url('img/mobile_menu.svg')}}">
+            <div class="responsive">
+                <div class="hamburger-menu responsive">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="/">Accueil</a></li>
+                        <li><a class="menu__item" href="/services">Nos services</a></li>
+                        <li><a class="menu__item" href="/presentations">Qui sommes-nous ?</a></li>
+                        <li><a class="menu__item" href="/contact">Nous contacter</a></li>
+                        <li><a class="menu__item" href="/client">Espace client</a></li>
+                    </ul>
+                </div>
             </div>
+
             <div>
                 <ul>
                     <li><a href="/">Accueil</a></li>

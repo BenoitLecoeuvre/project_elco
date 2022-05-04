@@ -31,11 +31,41 @@ section {
 
 .Block_service{
     display: flex;
+    flex-wrap: wrap;
     align-items: space-around;
     justify-content: space-around;
-    padding-left:  50px;
-    padding-right: 50px;
+    padding-left:  auto;
+    padding-right: auto;
     height: auto;
     margin-bottom: 70px;
 
+}
+
+@media only screen and (max-width: 800px) {
+    .titre_services0 h2{
+        font-size: 30px;
+    }
+
+    .titre_services_center {
+        border-top: none;
+    }
+
+    .Block_service{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        width: auto;
+        height: auto;
+        margin-bottom: 70px;  
+    }
+
+    .titre_services {
+        width: 98%;
+        height: auto;
+        text-align: center;
+    }
+
+    .titre_services h3 {
+        font-size: 20px;
+    }
 }

@@ -16,8 +16,8 @@
     <header>
         <div class="nav1">
             <div class="social_icons">
-                <img src="img/logo-facebook.png">
-                <img src="img/linkedin.png">
+                <a href="https://www.facebook.com"><img src="img/logo-facebook.png"></a>
+                <a href="https://www.linkedin.com"><img src="img/linkedin.png"></a>
             </div>
             <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn">Connexion</button>

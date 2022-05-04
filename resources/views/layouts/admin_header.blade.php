@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <title>Panneau d'administration</title>
     <link rel="stylesheet" href="{{url('css/main.css')}}">
+    <link rel="stylesheet" href="{{url('css/admin.css')}}">
     <link rel="stylesheet" href="{{url($style)}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    

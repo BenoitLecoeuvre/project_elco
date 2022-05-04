@@ -69,6 +69,12 @@ Route::get('/droit', function () {
     ]);
 });
 
+Route::get('/admintest', function () {
+    return view('admin_connect', [
+        'style' => 'css/admin_connect.css',
+    ]);
+});
+
 // Liste des membres
 Route::get('/admin/member_list', [UserList::class, 'index']);
 Route::delete('/admin/member_list/{user}', [UserList::class, 'destroy']);

@@ -40,6 +40,15 @@
         align-items: center;
     }
 
+    .block img {
+        cursor: pointer;
+    }
+
+    #container img:hover {
+        border: 3px solid #ba7ed5;
+        border-radius: 50%;
+    }
+
     .main p {
         font-style: italic;
     }

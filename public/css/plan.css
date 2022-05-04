@@ -5,7 +5,6 @@
 
 .Plan_div1{
     font-size: 30px;
-    text-decoration: none;
     display: flex;
     align-items: space-around;
     justify-content: space-around;
@@ -17,7 +16,6 @@
 
 .Plan_div2{
     font-size: 30px;
-    text-decoration: none;
     display: flex;
     align-items: space-around;
     justify-content: space-around;
@@ -25,4 +23,9 @@
     padding-right: 50px;
     height: auto;
     margin-bottom: 70px;
+}
+
+.plan_div1 ul li a{
+    text-decoration: none;
+
 }

@@ -3,24 +3,25 @@
 @section('content')
 
 <main>
-   
-   
-   
     
     <div class="Plan_div1">
-        <a href="">Accueil</a>
-        <a href="">Qui sommes-nous ?</a>
-        <a href="">Espace Client</a>
+        <ul>
+          <li><a href="">Accueil</a></li>
+          <li><a href="">Accueil</a></li>
+          <li><a href="">Qui sommes-nous ?</a></li>
+          <li><a href="">Espace Client</a></li>
+       </ul>   
     </div>
  
     <hr width="50%" color="#ba7ed5">
 
     <div class="Plan_div2">
-        <a href="">Nos services</a>
-        <a href="">Mention légal</a>
-        <a href="">Contact</a>
+        <ul>
+            <li><a href="">Nos services</a></li>
+            <li><a href="">Mention légal</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
     </div>
 </main>
-
 
 @endsection

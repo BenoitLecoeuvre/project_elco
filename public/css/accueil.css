@@ -12,8 +12,8 @@
     }
     
     .main .img_main img{
-        width: auto;
-        height: calc(100vh - 183px);
+        width: 100%;
+        height: auto;
     }
     
     #container{

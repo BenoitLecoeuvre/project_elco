@@ -46,11 +46,14 @@
         </div>
 
         <nav>
+            <div class="menu responsive">
+                <img src="{{url('img/mobile_menu.svg')}}">
+            </div>
             <div>
                 <ul>
                     <li><a href="/">Accueil</a></li>
                     <li><a href="/services">Nos services</a></li>
-                    <li><a href="/presentations">Qui sommes-nous ?</a></li>
+                    <li><a href="/presentations">Qui sommes<br>-nous ?</a></li>
                 </ul>
             </div>
             <div id="nav_img">

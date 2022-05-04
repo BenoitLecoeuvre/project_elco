@@ -1,27 +1,23 @@
 @extends('layouts.base')
 
 @section('content')
-
-<main>
-    
-    <div class="Plan_div1">
+<section>   
+    <div class="plan_div" style="margin-top: 30px;">
         <ul>
-          <li><a href="">Accueil</a></li>
           <li><a href="">Accueil</a></li>
           <li><a href="">Qui sommes-nous ?</a></li>
           <li><a href="">Espace Client</a></li>
        </ul>   
     </div>
  
-    <hr width="50%" color="#ba7ed5">
+    <hr>
 
-    <div class="Plan_div2">
+    <div class="plan_div">
         <ul>
             <li><a href="">Nos services</a></li>
-            <li><a href="">Mention légal</a></li>
+            <li><a href="">Mentions légales</a></li>
             <li><a href="">Contact</a></li>
         </ul>
     </div>
-</main>
-
+</section>
 @endsection

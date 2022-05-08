@@ -71,7 +71,7 @@
                 </ul>
             </div>
             <div id="nav_img">
-                <img src="{{url('img/logo_elco_small.png')}}">
+                <img src="{{url('img/logo_elco_small.png')}}" alt="logo_elco">
             </div>
             <div>
                 <ul>

@@ -57,7 +57,7 @@
         <tbody id="admin_data">
         @foreach ($contacts as $contact)
             <tr>
-                <td class="number_size">{{ $contact->id }}</td>
+                <td class="number_size id_number">{{ $contact->id }}</td>
                 <td>{{ $contact->created_at }}</td>
                 <td>{{ $contact->name }}</td>
                 <td>{{ $contact->first_name }}</td>
@@ -71,7 +71,7 @@
                 </td>
             </tr>
 
-            <div id="modal" class="modal_show">
+            <div id="modal" class="modal modal_show">
                 <div class="modal_content">
                     <span class="close">&times;</span>
                     <h3>Billet de contact n°{{ $contact->id }}</h3>
@@ -79,18 +79,14 @@
             </div>
         @endforeach
     </table>
-
-    <div id="modal" class="modal_show">
-        <div class="modal_content">
-            <span class="close">&times;</span>
-            <h3>Billet de contact n°{{ $contact->id }}</h3>
-        </div>
-    </div>
 </section>
 
 <script>
-        // Get the modal
-var modal = document.getElementById("modal");
+
+var i = document.getElementsByClassName("id_number");
+console.log(i)
+// Get the modal
+var modal = document.getElementsByClassName("modal")[i];
 
 // Get the button that opens the modal
 var btn = document.querySelector(".openmodal");

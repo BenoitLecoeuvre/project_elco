@@ -180,6 +180,7 @@
 .delete_data:hover {
     background-color: rgba(255, 0, 0, 0.432);
     color: white;
+    cursor: pointer;
 }
 
 
@@ -205,6 +206,10 @@
 #contact_admin #consult {
     background-color: #ba7ed5;
     width: 200px !important;
+}
+
+.openmodal {
+    cursor: pointer;
 }
 
 .modal_show {

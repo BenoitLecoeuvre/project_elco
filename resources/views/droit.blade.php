@@ -4,10 +4,8 @@
 <article id="legal">
     <div class="droit">
       <h2>Edition</h2>
-      <p>Ce site est édité par :</p>
-      <p>SAS au capital de : </p>
+      <p>Ce site est édité par la société ELCO</p>
       <p>2 rue de la flamengrie, 02510 Hannappes</p>
-      <p>telephone :</p>
 
       <p>
         L’Editeur exerce une activité réglementée d’expertise comptable en France, 
@@ -16,8 +14,7 @@
         sur www.experts-comptables.fr.
       </p>
       <h2>Hébergement</h2>
-      <p>Ce Site est hébergé par :</p> 
-      <p>Téléphone : </p> 
+      <p>Ce Site est hébergé par le site alwaysdata.com</p> 
       <p>
         La consultation du site est subordonnée à l’acceptation intégrale et au respect par les internautes, 
         des conditions d’utilisation suivantes.
@@ -47,8 +44,7 @@
         <p>
         L’Editeur traite les données personnelles des internautes en qualité de responsable de traitement.
         Données personnelles traitées et finalités de traitement
-        L’Editeur recueille sur le site des données personnelles d’internautes ayant pris contact avec lui via le formulaire de recrutement 
-        (nom, prénom, téléphone, e-mail, lettre de motivation, curriculum-vitae) ou de contact en ligne 
+        L’Editeur recueille sur le site des données personnelles d’internautes ayant pris contact avec lui via le formulaire de contact en ligne 
         (nom, prénom, téléphone et e-mail). Ces données sont nécessaires afin de répondre à la sollicitation des internautes. 
         Dans ce cadre, l’Editeur traite uniquement les données personnelles strictement nécessaires à la demande de l’internaute.
         La finalité de traitement de ces données personnelles est de permettre à l’Editeur de répondre aux sollicitations des internautes (prise de contact ou recrutement).

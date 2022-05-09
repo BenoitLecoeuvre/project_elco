@@ -6,7 +6,7 @@
    <div class="container_slide">
       <div class="slider">
         <img class="active" src="img/elco-3.png" alt="">
-        <img src="img/image_compta.png">
+        <img src="img/carrousel2.jpg">
         <img src="img/image_pre2.jpeg">
       </div>
    
@@ -24,25 +24,25 @@
    <div id="container">
       <div class="block">
          <h3>Qui Sommes Nous ?</h3>
-         <a href="/presentations"><img src="{{url('img/qui_sommes_nous.png')}}"></a>
+         <a href="/presentations"><img class="carrousel" src="{{url('img/qui_sommes_nous.png')}}"></a>
          <p>Apprenez-en davantage sur l'entreprise et ses experts</p>
       </div>
 
       <div class="block">
          <h3>Votre Compte</h3>
-         <a href="/client"><img src="{{url('img/compte.png')}}"></a>
+         <a href="/client"><img class="carrousel"  src="{{url('img/compte.png')}}"></a>
          <p>Rejoignez-nous et profitez d'un espace personnalisé unique.</p>
       </div>
 
       <div class="block">
          <h3>Nous Contacter</h3>
-         <a href="/contact"><img src="{{url('img/nous_contacter.png')}}"></a>
+         <a href="/contact"><img class="carrousel"  src="{{url('img/nous_contacter.png')}}"></a>
          <p>Des questions ? Nous sommes à votre service.</p>
       </div>
 
       <div class="block">
          <h3>Nos Services</h3>
-         <a href="/services"><img src="{{url('img/nos_services.png')}}"></a>
+         <a href="/services"><img class="carrousel" src="{{url('img/nos_services.png')}}"></a>
          <p>Consultez l'ensemble de nos prestations et nos domaines d'expertise.</p>
       </div>
    </div>
@@ -54,6 +54,8 @@ const nbSlide = items.length;
 const suivant = document.querySelector('.right');
 const precedent = document.querySelector('.left');
 let count = 0;
+
+console.log(nbSlide)
 
 function slideSuivante(){
     items[count].classList.remove('active');

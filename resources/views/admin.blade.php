@@ -51,7 +51,7 @@
                 <th>Prénom</th>
                 <th>Société</th>
                 <th id="consult">Consulter</th>
-                <th class="number number_size"><img src="./img/logo_delete.png"></th>
+                <th class="number number_size"><img src="../img/logo_delete.png"></th>
             </tr>
         </thead>
         <tbody id="admin_data">
@@ -82,17 +82,12 @@
 </section>
 
 <script>
-
-var i = document.getElementsByClassName("id_number");
-console.log(i)
-// Get the modal
-var modal = document.getElementsByClassName("modal")[i];
-
+    // Get the modal
+var modal = document.getElementById("modal");
 // Get the button that opens the modal
 var btn = document.querySelector(".openmodal");
-
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close")[0]; 
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {

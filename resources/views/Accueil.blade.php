@@ -5,9 +5,9 @@
 
    <div class="container_slide">
       <div class="slider">
-        <img class="active" src="img/elco-3.png" alt="">
-        <img src="img/carrousel2.jpg">
-        <img src="img/image_pre2.jpeg">
+        <img class="active caroussel_img"src="img/elco-3.png" alt="">
+        <img class="caroussel_img"src="img/carrousel2.jpg">
+        <img class="caroussel_img"src="img/image_pre2.jpeg">
       </div>
    
       <div class="cont-btn">
@@ -49,7 +49,7 @@
 
 
 <script> 
- const items = document.querySelectorAll('img');
+ const items = document.querySelectorAll('.caroussel_img');
 const nbSlide = items.length;
 const suivant = document.querySelector('.right');
 const precedent = document.querySelector('.left');
